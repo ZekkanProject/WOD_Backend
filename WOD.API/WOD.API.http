@@ -1,0 +1,6 @@
+@WOD.API_HostAddress = http://localhost:5128
+
+GET {{WOD.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

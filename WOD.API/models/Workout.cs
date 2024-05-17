@@ -13,7 +13,7 @@ namespace WOD.API.models
         public required string Sets { get; set; } = string.Empty;
         public required string Reps { get; set; } = string.Empty;
         public int CaloriesBurned { get; set; }
-        public int? WODID { get; set; }
-        public WorkoutsOfTheDay? WorkoutsOfTheDay { get; set; }
+        public virtual int? WODID { get; set; }
+        public virtual WorkoutsOfTheDay? WorkoutsOfTheDay { get; set; }
     }
 }
